@@ -1,0 +1,101 @@
+/* home_screen.css */
+
+.home-screen {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #09145a;
+    padding: 10px 20px;
+    color: #FFD700;
+    height: 45px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 40px;
+  }
+  
+  .menu a {
+    margin: 0 30px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    color: rgb(112, 106, 106);
+    text-decoration:underline;
+  }
+
+  .login-signup button {
+    background-color: #FFD700;
+    border-radius: 4px;
+    color: black;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    margin-right: 40px;
+  }
+  
+  .banner {
+    background-color: #1C2C91;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+
+  .brief{
+    padding: 8px;
+    margin: 10px 4px;
+    line-height: 30px;
+  }
+  
+  .banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  .completed-projects {
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 90px;
+    height: 45px;
+  }
+  
+  .domains {
+    text-align: center;
+    padding: 20px 20px;
+    height: 20%;
+  }
+  
+  .domains h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+  
+  .domain-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .domain {
+    text-align: center;
+    width: 140px;
+    margin: 10px 30px;
+  }
+  
+  .domain img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
